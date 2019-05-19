@@ -1,7 +1,10 @@
 ## Install
 
+Package url: https://pub.dev/packages/circular_reveal
+
 dependencies:
-  circular_reveal: 0.0.1
+
+circular_reveal: **get latest-version from package url**
 
 ## Demo Animation
 
