@@ -1,4 +1,7 @@
-## Circular Reveal Widget
+## Install
+
+dependencies:
+  circular_reveal: 0.0.1
 
 ## Demo Animation
 
