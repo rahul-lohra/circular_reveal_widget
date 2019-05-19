@@ -1,5 +1,9 @@
 ## Circular Reveal Widget
 
+## Demo Animation
+
+![Demo Animation](../assets/reveal_anim.gif?raw=true)
+
 ## Getting Started
 ```
 RevealWidget(Container(
