@@ -45,23 +45,18 @@ class RevealState extends State
     return GestureDetector(
       child: Stack(children: widgetList),
       onLongPressMoveUpdate: (e) {
-        print("onLongPressMoveUpdate");
         handleFingerMove(e.globalPosition.distance);
       },
       onHorizontalDragUpdate: (e){
-        print("onHorizontalDragUpdate");
         handleFingerMove(e.globalPosition.distance);
       },
       onVerticalDragUpdate: (e){
-        print("onVerticalDragUpdate");
         handleFingerMove(e.globalPosition.distance);
       },
       onTapUp: (e){
-        print("onTapUp");
         handleTapUp();
       },
       onLongPressUp: (){
-        print("onLongPressUp");
         handleTapUp();
       },
       onTapDown: (e) {
